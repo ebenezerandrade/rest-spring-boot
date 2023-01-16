@@ -1,0 +1,33 @@
+*.class
+
+/node_modules
+
+#SSH keys
+
+*.pem
+*.ppk
+
+#Mobile Tools for Java(J2ME)
+.mtj.tmp/
+
+#Package files
+*.jar
+*.war
+*.ear
+
+#Merge files
+*.bak
+
+#Gradle temporary files
+target/
+
+#Eclipse files
+**/.project
+**/.classpath
+**/.settings
+/bin/
+blog/bin/
+**/.tern-project
+
+#Virtual machine crash logs
+hs_err_pid*
